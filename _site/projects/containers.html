@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Leaky Containers and Blurry Edges—Jarrett Fuller</title>
+        <meta name="viewport" content="width=device-width">
+        <meta charset="UTF-8">
+            <link rel="stylesheet" type="text/css" href="/styles.css" />
+       <link href='https://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Tinos:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+        <link rel="icon" type="image/png" href="/images/icon.ico">
+
+        <style type="text/css">
+.preview {
+  set the width you want here. This will automagically limit the width of the anchors too;
+}
+
+/*all anchors in this ul*/
+.preview a {
+    width: 100%; /*this Haslayout trigger taking the place of zoom and therefore passes the validator, if it matters. Width is already naturally 100% by default anyway so we haven't changed anything except trigger Haslayout for IE*/
+    position:relative;
+    text-decoration:none;
+}
+/*all images inside boat ul*/
+.preview img {
+    position: fixed;
+    display: block; /*abso-position is already block context; you only need this line if IE is squirrely without it. Otherwise, take this line out*/
+    margin-left:-9999px; /*IE likes margins better than "left" for some reason*/
+    top:10%;
+    left: 0; /*but set a left and top for stability*/
+    z-index: -900;
+    width: 90%;
+}
+
+.preview a:hover, .preview a:focus {
+}
+
+.preview a:hover img, .preview a:focus img {
+    margin-left: 5%; /*set the image where you want it on hover/focus of anchor*/
+}
+
+        </style>
+
+    </head>
+    <body id="top"><!-- Start of StatCounter Code -->
+<script type="text/javascript">
+sc_project=862958;
+sc_invisible=1;
+sc_partition=3;
+sc_security="4b79b18c";
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a href="http://www.statcounter.com/" target="_blank"><img class="statcounter" src="http://c4.statcounter.com/862958/0/4b79b18c/1/" alt="free counter statistics" ></a></div></noscript>
+<!-- End of StatCounter Code -->
+        <header><h1 class="site-name"><a href="/">Jarrett Fuller</a></h1>
+            <nav><ul>
+                <li><a href="/about">About</a></li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="http://jarrettslibrary.tumblr.com">Library</a></li>
+                <li><a href="http://jarrettfuller.tumblr.com">Blog</a></li>
+             </ul></nav></header>
+
+
+
+<div id="container">
+          <div class="object">
+            <div class="year">November 2012</div>
+            <div class="essay">
+            <article>
+               <h3>Leaky Containers and Blurry Edges</h3>
+
+    <h4>The Container</h4>
+<p>I recently purchased David Foster Wallace's novel <a href="http://www.amazon.com/Infinite-Jest-David-Foster-Wallace/dp/0316066524/ref=sr_1_1?ie=UTF8&amp;qid=1352606475&amp;sr=8-1&amp;keywords=infinite+jest"><i>Infinite Jest</i></a>. I've been a fan of Wallace's writing for a few years, mostly his non-fiction essays<a id="footnote-1-ref" class="footnote" href="#footnote-1">1</a> yet up until now, I didn't have the courage to take the plunge into his magnum opus. <i>Infinite Jest</i> is a big book&mdash;coming in at 1104 pages, the paperback is almost two-inches thick. According to Amazon, it weighs two and a half pounds.</p>
+
+<p>A book of that size commands attention&mdash;both mentally and physically. It has a mass and a weight. It takes up precious space on my bookshelf. My bookmark taunts me, always reminding me how much farther I still have to read. It's intimidating. But it's also not unapproachable.</p>
+
+<p>And when I do finally finish, there's a feeling of accomplishment. That space on my shelf now serves as an award of sorts, a medal of honor reserved for those who complete these two and half pounds of words. The bookmark comes out knowing I have read it all. It's finished.</p>
+
+<h4>The Network</h4>
+<p>Last month, Rob Giampietro posted an <a href="http://blog.linedandunlined.com/post/30534457017/teachers-college">introduction to a workshop</a> he gave on learning where the task of the attendees is to develop a syllabi for the class. His abstract mentions Maria Montessori, creator of the education system that bares her name. Since I know a few people who went to Montessori schools, I decided to read her <a href="http://en.wikipedia.org/wiki/Maria_Montessori">Wikipedia page</a>. After finishing that, I clicked on the page for her <a href="http://en.wikipedia.org/wiki/Montessori_education">education system</a>. Which led to reading about <a href="http://en.wikipedia.org/wiki/home_schooling">home schooling</a> and down the rabbit hole I went.</p>
+
+<p>That's the difference between reading online and offline. Offline reading provides us with clear containers. It has edges. It is defined. There is a definitive beginning and end.</p>
+
+<p>But Reading online is different than reading a book. There are links and networks and comments. I can share what I'm reading on Twitter or email it to a friend with a tap of my finger. That finality is missing. The edges are a bit blurrier. <i>(Are there edges?)</i> The containers less defined.</p>
+
+<p>These are obvious statements, I know. We've been reading online for a decade now, but I wonder if this lack of edges&mdash;these uncertain containers&mdash;are contributing to our feeling of <i>information overload</i>, and in turn, changing how we approach it.</p>
+
+<h4>Editors make the edges</h4>
+<p>Edges suggest authority. They provide an opinion of what is worth paying attention to: </p>
+
+<blockquote><p>"Between the covers, these words are important."</p></blockquote>
+
+<blockquote><p>"If it's not within these walls, you don't have to worry about it."</p></blockquote>
+
+<p>Edges suggest editorship. Someone decided what was worth including and what was extraneous. </p>
+
+<p>We crave edges. We like placing things into containers&mdash;sometimes of our own creation&mdash;and we like the feeling of knowing we have finished something. That's why we scroll to the bottom of a page of a long article before we start reading it&mdash;we want to find the edges of what we are about to read. Perhaps what's most lacking on the web is better containers&mdash;something with edges, with a beginning and an end. Perhaps the reason we feel such information overload online isn't because there is too much content, but because there is no clear way to navigate through that content.</p>
+
+<h4>Building containers, defining edges</h4>
+<p>The biggest problem for content creators in the digital age is creating edges for their content, giving it a beginning and end, and by doing so, giving it the importance and framing. </p>
+
+<p>In May, Readiblity launched <a href="http://readlists.com">Readlists</a>, a simple tool that allows users to group sets of online essays into bundled ebooks that they can send to their Kindle or iPad – packaging collected essays into an easily digestible container. And then in July, <a href="http://weblog.muledesign.com/2012/07/evening_edition.php">Mule Design</a> released <a href="http://evening-edition.com">Evening Edition</a>&mdash;"the perfect commute-sized way to catch up on the day's news"&mdash;a simple site that collects the top stories of the day and updates every evening at 5pm with summaries of the top events. It's a digital publication that operates like a print publication: scheduled releases, a packaged container, defined edges: <i>Here's what's worth reading today.</i></p>
+
+<p>
+<img src="/images/projects/containers_iphone_readlists.jpg" width="30%" />
+<img src="/images/projects/containers_iphone_ee.jpg" width="30%" />
+<img src="/images/projects/containers_iphone_magazine.jpg" width="30%" />
+</p>
+
+<p>Marco Arment of Instapaper recently launched <a href="http://www.marco.org/2012/10/11/the-magazine">The Magazine</a>, an iOS app in the form of a weekly technology publication. There is no art direction or theme, just text. The Magazine is interesting because it feels like reading a blog post in Instapaper, except the articles you're reading are preselected. And once you're done, you have to wait until the next issue. It's a digital publication&mdash;and has everything we expect from today's digital publications&mdash;but it's packaged into a container, delivered to me each week like print publication.</p>
+
+<p>Perhaps that's why the term "curation" has become such a buzzword in the digital space. Curating, in the traditional sense, was about selecting things that together tell a larger story. It was about deciding what was worth paying attention to and what was important to the story. Curating was (is?) about filling containers and building edges<a id="footnote-2-ref" class="footnote" href="#footnote-2">2</a> </p>
+
+<p>Craig Mod considered the importance of edges after finishing and shipping Flipboard for iPhone<a id="footnote-3-ref" class="footnote" href="#footnote-3">3</a>. When creating something that is purely digital, it's harder to look back at what you've made; the pieces and the leftovers consist of bits of of code and folders of unused PSDs. Where was the weight to what he created? Why couldn't he feel the pieces of the process? To reconcile this feeling, Mod <a href="http://craigmod.com/journal/digital_physical/">created a book</a>&mdash;a physical book!&mdash;that chronicled the team's journey of creating the app and included everything from git pushes to PSDs to wireframes to photos of the launch. Mod writes:</p>
+
+<blockquote><p>Edges are about feeling as much as seeing. With edges comes a sense of weight. And with that comes the ability to feel &mdash; physically and psychically. And with that, a better understanding of what we've built and where we've been.</p></blockquote>
+
+<p>Our reading on the internet is lacking that weight. We have an endless stream of content at our disposal but no sense how far into it we've gotten. We can never take out the bookmark and look at it up on a shelf with a sense of accomplishment. It slowly all blends together, one thing running into the next. No place to stop, no place to pause, no place to step back and look our progress.</p>
+
+<p>Eventually, all of our reading will be online. For some people, that moment has already arrived. Magazines are slowly moving to exclusively digital content<a id="footnote-4-ref" class="footnote" href="#footnote-4">4</a>. As designers, the greatest task that lies before us is not to try to replicate print, it's not bringing art direction online, it's not to make the reading experience feel like paper&mdash;no matter how hard we try, I'll never smudge the ink with my fingers when reading on my iPad the way I do when reading The New Yorker&mdash;and no, it's not to bring high quality typography to the web.</p>
+
+<p>The greatest challenge for digital content is to give it edges and build containers that we can sift through and finish. <i>Infinite Jest</i> is a lot of text&mdash;a lot of content&mdash;but it isn't unfinishable. I know how deep into it I am and I know how much I have left to go. The narrative structure of Wallace's novel&mdash;as twisting and lengthy as it&mdash;is helped shaped by the edges he has given it. Content needs those edges to shape the narrative, to provide organization and&mdash;gulp&mdash;<i>curation</i>. It can help the content feel consumable and make us feel&mdash;even if just for a moment&mdash;that this stream of information isn't endless. &#10006;</p>
+
+<!--Footnotes -->
+<div class="notes">
+<h4>Notes</h4>
+
+<ol>
+<li><p id="footnote-1">One of my all-time favorite DFW essays, and one I'd recommend if you haven't read much of his work, is <a href="http://www.gourmet.com/magazine/2000s/2004/08/consider_the_lobster"><i>Consider the Lobster</i></a>.  <a href="#footnote-1-ref">↩</a></p></li>
+
+<li><p id="footnote-2">We can argue all we want about whether "curating" online, at least in the sense it seems to be thrown around today, is the same as traditional curation but the larger point here is that we are longing for order online and one way we do that is by filling our own containers&mdash;blogs, Tumblrs, Pinterests&mdash;with what we feel is important. We are, in a sense, giving edges to our digital lives. <a href="#footnote-2-ref">↩</a></p></li>
+
+<li><p id="footnote-3">If you don't use Flipboard (for both iPad and iPhone) you are missing out. It's my favorite iPad app. Not to mention it employs an interesting job implying edges. <a href="#footnote-3-ref">↩</a></p></li>
+
+<li><p id="footnote-4">On January 1, 2013, Newsweek will be a digital only publication. They are not the first magazine to go this way, but they are highest profile publication to abandon print. I imagine a flood to other publications to follow this lead in the next twelve months. <a href="#footnote-4-ref">↩</a></p></li>
+</ol>
+<p>Thanks to this <a href="http://www.cnn.com/2012/10/21/opinion/mod-digital-magazines/index.html">CNN.com opinion piece from Craig Mod</a> for helping me crystalize what I'd been thinking about for two months and for <i>many</i> IM conversations with my friend <a href="http://jondicus.com">Jon Dicus</a> about the idea of the container.</p>
+</div>
+
+
+</article>
+        </div>
+
+
+
+
+
+    </div>
+
+        <footer><div class="left"><p>&copy <script language="javascript" type="text/javascript">
+var today = new Date()
+var year = today.getFullYear()
+document.write(year)
+            </script> Jarrett Fuller.</p></div>
+
+    <div class="right"><p><a href="mailto:jarrettfuller@gmail.com">Email</a> | <a href="http://www.twitter.com/jarrettfuller">Twitter</a> | <a href="http://www.instagram.com/jarrettfuller">Instagram</a> | <a href="https://www.flickr.com/photos/jarrettfuller/">Flickr</a> | <a href="https://open.spotify.com/user/jarrettfuller/">Spotify</a></p></div>
+    </footer>
+        <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+                <script>
+            $(".images .to-top a").click(function(event) {
+                event.preventDefault();
+                $("body,body").animate({scrollTop:$(this.hash).offset().top}, 400);
+            });
+        </script>
+    </body>
+</html>
