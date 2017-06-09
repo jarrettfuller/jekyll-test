@@ -1,16 +1,21 @@
 ---
-layout: image
 title: Warby Parker 2011 Annual Report
-tags: Design
-discription: Warby Parker saw tremendous growth during the year 2011 and wanted an innovative and unusual way to share that data with their customers. We created an interactive, horizontal scrolling year in review anchored by a timeline highlighting various events from the year.
+date: 2011-12-30 00:00:00 Z
+permalink: "/projects/warbyparker11"
 categories:
 - Design
 - Infographics
 - Interactive
 - Branding
+tags:
+- Design
+layout: image
+discription: Warby Parker saw tremendous growth during the year 2011 and wanted an
+  innovative and unusual way to share that data with their customers. We created an
+  interactive, horizontal scrolling year in review anchored by a timeline highlighting
+  various events from the year.
 year: 2011
-image: /images/projects/wp_2011_2.jpg
-permalink: /projects/warbyparker11
+image: "/images/projects/wp_2011_2.jpg"
 ---
 
 <img src="/images/projects/wp_2011_1.jpg">

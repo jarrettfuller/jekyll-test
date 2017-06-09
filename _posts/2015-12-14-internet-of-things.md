@@ -1,11 +1,13 @@
 ---
-layout: text
 title: Cars, Fireplaces, Kitches, Computers — Designers and the Internet of Things
-tags: Essay
+date: 2015-12-14 00:00:00 Z
+permalink: "/projects/internet-of-things"
+tags:
+- Essay
+layout: text
 publish: November 2015
 year: 2015
-image: /images/projects/iot-playtime.jpg
-permalink: /projects/internet-of-things
+image: "/images/projects/iot-playtime.jpg"
 ---
 
 <p>On September 18, 2015, the United States Environmental Protection Agency revealed that Volkswagen had violated the Clean Air Act. The company had programmed their cars’s diesel engines to activate specific emissions controls during laboratory testing so that the cars’s nitrogen oxide could meet U.S. standards when tested. “Volkswagen didn’t make a faulty car,” <a href="http://ieet.org/index.php/IEET/more/rinesi20150925">wrote Marcelo Rinesi for the <i>Institute for Ethics and Emerging Technology</i></a>, “they programmed it to cheat intelligently.”</p>
