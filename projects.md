@@ -1,10 +1,6 @@
 ---
-title: Jarrett Fuller
-layout: default
-<<<<<<< HEAD
-=======
-title: "Test Page"
->>>>>>> master
+layout: projects
+title: Projects
 ---
 
 <main class="preview" id="all-container">
@@ -23,4 +19,3 @@ title: "Test Page"
     </main>
 
 <section class="clear"></section>
-
