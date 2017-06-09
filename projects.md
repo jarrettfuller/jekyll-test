@@ -1,6 +1,6 @@
 ---
-layout: default
-title: "Test Page"
+layout: projects
+title: Projects
 ---
 
 <main class="preview" id="all-container">
@@ -19,4 +19,3 @@ title: "Test Page"
     </main>
 
 <section class="clear"></section>
-
