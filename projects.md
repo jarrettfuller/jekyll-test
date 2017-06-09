@@ -1,6 +1,6 @@
 ---
-layout: projects
 title: Projects
+layout: projects
 ---
 
 <main class="preview" id="all-container">

@@ -1,12 +1,14 @@
 ---
-layout: text
 title: Leaky Containers and Blurry Edges
-tags: Essay
-discription:
+date: 2012-11-15 00:00:00 Z
+permalink: projects/containers
+tags:
+- Essay
+layout: text
+discription: 
 publish: November 2012
 year: 2012
-image: /images/projects/edges.jpg
-permalink: projects/containers
+image: "/images/projects/edges.jpg"
 ---
 
 <H4>The Container</H4>

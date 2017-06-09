@@ -1,15 +1,22 @@
 ---
-layout: image
 title: What We Talk About When We Talk About Graphic Design
-tags: Curation
-discription: Based on my podcast, <a href="http://www.scratchingthesurface.fm">Scratching the Surface</a>, What We Talk About When We Talk About Graphic Design is a small exhibition I curated of work from the guests of the first set of interviews I conducted. The work showcased — from designers like Armin Vit, Experimental Jetset, Dexter Sinister, and the Google Design team — is a collection critical design that seeks to further and deepen the graphic design discourse.
+date: 2017-03-29 00:00:00 Z
+permalink: projects/talk
 categories:
 - Curation
 - Exhibition Design
 - Environmental
+tags:
+- Curation
+layout: image
+discription: Based on my podcast, <a href="http://www.scratchingthesurface.fm">Scratching
+  the Surface</a>, What We Talk About When We Talk About Graphic Design is a small
+  exhibition I curated of work from the guests of the first set of interviews I conducted.
+  The work showcased — from designers like Armin Vit, Experimental Jetset, Dexter
+  Sinister, and the Google Design team — is a collection critical design that seeks
+  to further and deepen the graphic design discourse.
 year: 2017
-image: /images/projects/sts-exhibition-1.jpg
-permalink: projects/talk
+image: "/images/projects/sts-exhibition-1.jpg"
 ---
 
 <img src="/images/projects/sts-exhibition-1.jpg">

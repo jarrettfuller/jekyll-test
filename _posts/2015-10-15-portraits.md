@@ -1,16 +1,16 @@
 ---
-layout: image
 title: Portraits
-tags: Photography
-discription:
+date: 2015-10-15 00:00:00 Z
+permalink: "/projects/portraits"
 categories:
 - Photography
+tags:
+- Photography
+layout: image
+discription: 
 year: 2013-2015
 image: https://c1.staticflickr.com/1/755/21640239200_3edae6ac0b_h.jpg
-permalink: /projects/portraits
-
 ---
-
 
 <img src="https://c1.staticflickr.com/1/755/21640239200_3edae6ac0b_h.jpg">
 <img src="https://c2.staticflickr.com/6/5791/21816267572_7ed4bb945d_h.jpg">

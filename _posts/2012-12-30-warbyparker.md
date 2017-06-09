@@ -1,16 +1,25 @@
 ---
-layout: image
 title: Warby Parker 2012 Annual Report
-tags: Design
-discription: For the second year in a row, Warby Parker wanted to created an interactive year in review to tell the story of the past year. As a part of the creative team, we designed and built a scrolling wheel that spun in your browser to share interesting facts, company milestones, collection launches, and other fun secrets.The report was featured in <a href="http://www.adweek.com/adfreak/warby-parkers-latest-annual-report-infographic-sight-sore-eyes-146593">AdWeek</A>, <a href="http://www.forbes.com/sites/patrickhanlon/2013/01/16/warby-parker-eyewear-launches-annual-report-transparency/">Forbes</A>, <a href="http://yewknee.com/blog/the-2012-warby-parker-annual-report/">Yewknee</A> and more.
+date: 2012-12-30 00:00:00 Z
+permalink: "/projects/warbyparker12"
 categories:
 - Design
 - Infographics
 - Interactive
 - Branding
+tags:
+- Design
+layout: image
+discription: For the second year in a row, Warby Parker wanted to created an interactive
+  year in review to tell the story of the past year. As a part of the creative team,
+  we designed and built a scrolling wheel that spun in your browser to share interesting
+  facts, company milestones, collection launches, and other fun secrets.The report
+  was featured in <a href="http://www.adweek.com/adfreak/warby-parkers-latest-annual-report-infographic-sight-sore-eyes-146593">AdWeek</A>,
+  <a href="http://www.forbes.com/sites/patrickhanlon/2013/01/16/warby-parker-eyewear-launches-annual-report-transparency/">Forbes</A>,
+  <a href="http://yewknee.com/blog/the-2012-warby-parker-annual-report/">Yewknee</A>
+  and more.
 year: 2012
-image: /images/projects/wp_2012_4.jpg
-permalink: /projects/warbyparker12
+image: "/images/projects/wp_2012_4.jpg"
 ---
 
 <img src="/images/projects/wp_2012_1.jpg">
