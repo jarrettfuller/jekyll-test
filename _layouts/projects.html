@@ -4,7 +4,42 @@ layout: default
 
 <head>
     <style type="text/css">
+.preview {
+  set the width you want here. This will automagically limit the width of the anchors too;
+}
 
+/*all anchors in this ul*/
+.preview a {
+    display: block;
+    width: 100%; /*this Haslayout trigger taking the place of zoom and therefore passes the validator, if it matters. Width is already naturally 100% by default anyway so we haven't changed anything except trigger Haslayout for IE*/
+    position:relative;
+    text-decoration:none;
+}
+/*all images inside boat ul*/
+.preview img {
+    position: fixed;
+    display: block; /*abso-position is already block context; you only need this line if IE is squirrely without it. Otherwise, take this line out*/
+    margin-left:-9999px; /*IE likes margins better than "left" for some reason*/
+    top:15%;
+    left: 0; /*but set a left and top for stability*/
+    z-index: -900;
+    width: 50%;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    opacity: 0.4;
+}
+
+.preview a:hover, .preview a:focus {
+    border-bottom: none;
+}
+
+.preview a:hover img, .preview a:focus img {
+    margin-left: 25%; /*set the image where you want it on hover/focus of anchor*/
+}
+.hidden {
+  display: none!important;
+  visibility: hidden!important;
+}
 .blog-tags-list {
         padding-bottom: 10px;
         margin: auto;
@@ -15,7 +50,7 @@ layout: default
         text-align: center;
         }
 .blog-tags-list a:hover {
-            color: blue;
+            color: #ff0000;
         }
 .blog-tag-item {
         float: left;
@@ -28,7 +63,7 @@ layout: default
             margin-left: 0px;
         }
 .blog-tag-item:hover {
-    border-color: blue;
+    border-color: #ff0000;
         }
 .blog-tag-item a:hover {
     text-decoration: none;
