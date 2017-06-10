@@ -78,6 +78,7 @@ header {
   padding-right: 50px;
   font-weight: 700;
   width: auto;
+    font-family: 'Space Mono';
 }
 header h1 {
   font-family: 'Karla', Helvetica, Arial, sans-serif;
