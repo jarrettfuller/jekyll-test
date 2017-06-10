@@ -1,7 +1,7 @@
 /*----------- MASTER --------------*/
 .fonts {
   font-family: 'Karla', Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   color: #000000;
 }
 .serif {
@@ -82,7 +82,10 @@ header {
 header h1 {
   font-family: 'Space Mono';
     text-decoration: underline;
-  font-size: 16px;
+    font-weight: normal;
+    text-transform: capitalize;
+  font-size: 14px;
+    letter-spacing: 1px;
   color: #000000;
   width: 50%;
   margin-right: 22px;
@@ -116,7 +119,7 @@ nav li:first-child {
 }
 /*----------- PROJECTS --------------*/
 .object {
-  border-top: 1px #ff0000 solid;
+  border-top: 1px grey solid;
   padding: 15px 50px 50px 50px;
   display: -webkit-flex;
   display: -ms-flexbox;
