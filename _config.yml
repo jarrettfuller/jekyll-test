@@ -16,29 +16,26 @@ defaults:
 - scope:
     path: ''
   values:
-    layout:
-    date:
-    title:
-    image:
+    layout: default
 name: Jarrett Fuller
 description: Designer, Writer, Podcaster
-avatar:
+avatar: 
 footer-links:
-  dribbble:
-  email:
-  facebook:
-  flickr:
-  github:
-  instagram:
-  linkedin:
-  pinterest:
-  rss:
-  twitter:
-  stackoverflow:
-  youtube:
-  googleplus:
+  dribbble: 
+  email: 
+  facebook: 
+  flickr: 
+  github: 
+  instagram: 
+  linkedin: 
+  pinterest: 
+  rss: 
+  twitter: 
+  stackoverflow: 
+  youtube: 
+  googleplus: 
 google_analytics: UA-91441149-1
-url:
+url: 
 baseurl: ''
 highlighter: rouge
 permalink: "/:title/"
@@ -54,9 +51,3 @@ exclude:
 - LICENSE
 - README.md
 - CNAME
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-    values:
-      layout: "default"
