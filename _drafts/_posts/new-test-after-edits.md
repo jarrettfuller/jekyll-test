@@ -1,5 +1,6 @@
 ---
-layout: default
 title: New Test after edits
-date: '2017-06-12T19:09:52+00:00'
+date: 2017-06-12 19:09:52 Z
+layout: default
 ---
+
