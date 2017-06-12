@@ -1,6 +1,0 @@
----
-title: Test 3
-date: 2017-06-11 21:44:22 Z
-layout: default
----
-
