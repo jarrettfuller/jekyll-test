@@ -12,6 +12,11 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+- scope:
+    path: ''
+  values:
+    layout: default
 name: Jarrett Fuller
 description: Designer, Writer, Podcaster
 avatar: 
