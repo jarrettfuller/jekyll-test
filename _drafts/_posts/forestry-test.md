@@ -1,5 +1,6 @@
 ---
-layout: default
 title: Forestry Test
-date: '2017-06-12T19:01:48+00:00'
+date: 2017-06-12 19:01:48 Z
+layout: default
 ---
+
