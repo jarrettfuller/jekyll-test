@@ -1,5 +1,6 @@
 ---
-layout: text
 title: Test test
-date: '2017-06-12T19:15:05+00:00'
+date: 2017-06-12 19:15:05 Z
+layout: text
 ---
+
