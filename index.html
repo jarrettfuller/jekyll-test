@@ -8,9 +8,9 @@ layout: default
 
         <a href="{{ site.baseurl }}{{ post.url }}">
         <div class="object">
+            <div class="year">{{ post.pubdate }}</div>
             <div class="project">{{ post.title }}</div>
-            <div class="type">{{ post.tags }}</div>
-            <div class="year">{{ post.year }}</div>
+            <div class="type">{{ post.category }}</div>
         </div>
 
     {% endfor %}
