@@ -5,7 +5,6 @@ categories:
 - Interview
 layout: text
 pubdate: June 2017
-layout: text
 publication: The Paris Review
 ---
 
