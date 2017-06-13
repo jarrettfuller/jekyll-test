@@ -102,7 +102,7 @@ nav li:first-child {
 }
 /*----------- PROJECTS --------------*/
 .object {
-  border-top: 1px grey solid;
+  border-top: 1px lightgrey solid;
   padding: 15px 50px 50px 50px;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -180,22 +180,17 @@ nav li:first-child {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  align-items: baseline;
   width: auto;
   padding: 15px 50px 50px 50px;
+    border-top: 1px solid lightgrey;
 }
 .text {
-  width: 75%;
+  width: 55%;
   border-top: none;
   align-items: baseline;
+margin-right: 5%;
 }
-.profile_section {
-  width: 100%;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  padding-top: 25px;
-}
+
 .profile_section:first-child {
   padding-top: 0px;
 }
@@ -232,7 +227,9 @@ nav li:first-child {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  margin-left: 50px;
+}
+.profile img {
+    width: 60%;
 }
 .profile sidebar h4 {
     font-size: 16px;
@@ -261,7 +258,8 @@ nav li:first-child {
 }
 /*----------- WRITING --------------*/
 .essay {
-  width: 60%;
+  width: 55%;
+    margin-right: 5%;
 }
 article {
   font-family: 'Average', Georgia, Times, serif;
@@ -303,6 +301,15 @@ article hr {
 }
 article img {
   width: 100%;
+}
+.colophon {
+    width: 40%;
+    font-family: 'Space Mono';
+    font-size: 11px;
+}
+.colophon a {
+    border-bottom: 1px solid black;
+    font-size: 11px;
 }
 figure {
   width: 135%;
@@ -376,7 +383,7 @@ figcaption a:hover {
 }
 /*----------- FOOTER --------------*/
 footer {
-  border-top: 1px #ff0000 solid;
+  border-top: 1px lightgrey solid;
   padding: 15px 50px 50px 50px;
   display: -webkit-flex;
   display: -ms-flexbox;
