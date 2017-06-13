@@ -6,6 +6,7 @@ category:
 layout: text
 pubdate: June 2017
 layout: text
+publication: The Paris Review
 ---
 
 This is a test from Forestry. This is a test from Forestry.This is a test from Forestry.This is a test from Forestry.This is a test from Forestry.This is a test from Forestry.This is a test from Forestry.This is a test from Forestry.This is a test from Forestry.
