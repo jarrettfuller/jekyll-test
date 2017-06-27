@@ -1,9 +1,7 @@
 ---
 title: Welcome to Airspace
 date: 2017-06-12 20:07:55 Z
-categories:
-- Feature
-tags:
+category:
 - Feature
 layout: text
 pubdate: July 2016
