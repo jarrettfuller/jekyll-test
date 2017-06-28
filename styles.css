@@ -398,6 +398,15 @@ footer {
 .right {
   width: 40%;
 }
+form {
+    padding-top: 0px;
+}
+input {
+    border: 1px solid black;
+    padding: 5px;
+    background-color: white;
+    margin-left: 1%;
+}
 /*-----------------------------------
 TABLET
 ----------------------------------- */
