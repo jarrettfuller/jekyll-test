@@ -95,6 +95,16 @@ nav li:first-child {
   padding-left: 0px;
   margin-left: 0px;
 }
+
+/*----------- HOMEPAGE --------------*/
+.intro {
+    border-top: 1px solid lightgrey;
+    font-family: 'Arimo', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 20px 40% 20px 50px;
+}
 /*----------- PROJECTS --------------*/
 .object {
   border-top: 1px lightgrey solid;
@@ -129,49 +139,6 @@ nav li:first-child {
 }
 .preview .object:hover {
     background-color: lightgray;
-}
-.images {
-  width: auto;
-  border: none;
-  text-align: left;
-  color: rgba(0, 0, 0, 0.4);
-  padding: 15px 50px 50px 50px;
-}
-.images img {
-  width: 100%;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-.images p {
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
-.images-left {
-  width: 50%;
-  padding-right: 15px;
-  float: left;
-  box-sizing: border-box;
-
-}
-.images-right {
-  width: 50%;
-  padding-left: 15px;
-  float: right;
-  box-sizing: border-box;
-}
-.images blockquote {
-  font-size: 36px;
-  text-align: center;
-  padding: 25px;
-}
-.to-top {
-  text-align: center;
-}
-.to-top a:hover {
-  border-bottom: none;
-}
-.project p a {
-  font-weight: 700;
 }
 
 /*----------- PROFILE --------------*/
@@ -222,17 +189,7 @@ margin-right: 5%;
   border-bottom: 1px #ff0000 solid;
   color: red;
 }
-.profile h1 {
-    font-family: 'Arimo', Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 20px;
-    width: 60%;
-}
-.profile h1 a {
-    font-size: 18px;
-    border-bottom: 1px solid black;
-}
+
 .profile sidebar {
   -webkit-flex: 1;
   -ms-flex: 1;
@@ -486,70 +443,38 @@ TABLET
     padding-top: 10px;
     width: 100%;
   }
-  nav li {
-    padding-left: 15px;
-  }
+
   nav li:first-child {
     padding-left: 0px;
     margin-left: 0px;
   }
   /*HOMEPAGE */
-
+.intro {
+    padding: 25px 25px 25px 25px;
+}
   /*PROJECTS */
   .object {
     flex-direction: column;
     padding-left: 25px;
   }
-  .type {
-    font-style: italic;
-  }
-  .text {
-    flex-direction: column;
-    padding-left: 25px;
-  }
-  .project {
-    width: auto;
-    margin-right: 0px;
-    padding-right: 0px;
-  }
-  .essay {
-    width: 100%;
-  }
-  .images {
-    padding-left: 0px;
-    padding-top: 0px;
-    padding-right: 0px;
-      width: 100%;
-  }
- .images p {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-  .images img {
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-  .images-left {
-    width: 100%;
-    padding-left: 25px;
-      padding-right: 25px;
-  }
-  .images-right {
-    width: 100%;
-    padding-left: 25px;
-      padding-right: 25px;
-  }
-  .images p {
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 5px;
-    margin-bottom: 5px;
-  }
-.images-left p,
-    .images-right p {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
+ .year {
+  width: 20%;
+
+}
+.project {
+  width: 100%;
+  margin-right: 0px;
+  box-sizing: border-box;
+  padding-right: 30px;
+    font-weight: 700;
+}
+.type {
+  width: 100%;
+}
+.publication {
+  width: 100%;
+  font-style: italic;
+}
   /* PROFILE */
   .profile {
     display: -webkit-flex;
