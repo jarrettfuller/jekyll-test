@@ -1,7 +1,7 @@
 /*----------- MASTER --------------*/
 .fonts {
   font-family: 'Arimo', Helvetica, Arial, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   color: #000000;
 }
 .serif {
@@ -65,22 +65,18 @@ ul {
 /*----------- HEADER --------------*/
 header {
   border-top: 1px #ff0000 solid;
-  padding: 15px 50px 50px 50px;
+  padding: 20px 70px 40px 50px;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
   border-top: none;
-  padding: 15px 50px 50px 50px;
-  padding-bottom: 80px;
-  padding-top: 30px;
-  padding-right: 50px;
   width: auto;
   font-family: 'Space Mono';
   font-weight: normal;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 10px;
+    font-size: 13px;
 }
 header h1 {
   font-weight: normal;
@@ -88,13 +84,12 @@ header h1 {
   width: 60%;
   margin-right: 22px;
 }
-
 nav {
   width: 40%;
   font-size: 10px;
 }
 nav li {
-  list-style: none inside;
+  list-style: none;
 }
 nav li:first-child {
   padding-left: 0px;
@@ -103,24 +98,28 @@ nav li:first-child {
 /*----------- PROJECTS --------------*/
 .object {
   border-top: 1px lightgrey solid;
-  padding: 15px 50px 50px 50px;
+  padding: 25px 50px 25px 50px;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
   width: auto;
+  font-size: 18px;
+  line-height: 20px;
 }
 .first {
   border-top: none;
 }
 .year {
   width: 20%;
+
 }
 .project {
   width: 40%;
-  margin-right: 20px;
+  margin-right: 0px;
   box-sizing: border-box;
   padding-right: 30px;
+    font-weight: 700;
 }
 .type {
   width: 20%;
@@ -224,14 +223,14 @@ margin-right: 5%;
   color: red;
 }
 .profile h1 {
-    font-family: 'Space Mono', monospace;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 38px;
+    font-family: 'Arimo', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
     width: 60%;
 }
 .profile h1 a {
-    font-size: 32px;
+    font-size: 18px;
     border-bottom: 1px solid black;
 }
 .profile sidebar {
@@ -314,13 +313,36 @@ article img {
   width: 100%;
 }
 .colophon {
-    width: 40%;
+    width: 30%;
     font-family: 'Space Mono';
     font-size: 11px;
+}
+.colophon li {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.colophon img {
+    width: 80%;
 }
 .colophon a {
     border-bottom: 1px solid black;
     font-size: 11px;
+}
+.colophon h4 {
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+.colophon h4:first-child {
+    padding-top: 0px;
+}
+.tags {
+    margin-left: -5px;
+}
+.tags li {
+    border: 1px solid black;
+    float: left;
+    padding: 5px;
+    margin: 5px;
 }
 figure {
   width: 135%;
@@ -423,13 +445,7 @@ TABLET
 ----------------------------------- */
 @media screen and (min-width: 716px) and (max-width: 1024px) {
   /* HOMEPAGE */
-  .intro {
-    font-size: 60px;
-    height: auto;
-  }
-  .intro a {
-    font-size: 60px;
-  }
+
   /* PROJECTS */
   .essay {
     width: 75%;
@@ -478,14 +494,7 @@ TABLET
     margin-left: 0px;
   }
   /*HOMEPAGE */
-  .intro {
-    font-size: 30px;
-    height: auto;
-    padding-left: 25px;
-  }
-  .intro a {
-    font-size: 30px;
-  }
+
   /*PROJECTS */
   .object {
     flex-direction: column;
