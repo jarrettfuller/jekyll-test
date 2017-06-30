@@ -3,9 +3,15 @@ title: Archive
 layout: default
 ---
 
-<main class="preview" id="all-container">
-  {% for post in site.posts %}
+<div class="object order">
+<div class="year order">Date</div>
+<div class="project order">Title</div>
+<div class="type order">Type</div>
+<div class="publication order">Publication</div>
+</div>
 
+<main class="preview" id="all-container">
+{% for post in site.posts %}
         <a href="{{ site.baseurl }}{{ post.url }}">
         <div class="object">
             <div class="year">{{ post.pubdate }}</div>

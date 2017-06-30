@@ -140,6 +140,14 @@ nav li:first-child {
 .preview .object:hover {
     background-color: lightgray;
 }
+.order {
+    font-weight: bold;
+    font-family: "Space Mono";
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 
 /*----------- PROFILE --------------*/
 .profile {
@@ -475,6 +483,9 @@ TABLET
   width: 100%;
   font-style: italic;
 }
+    .order {
+        display: none;
+    }
   /* PROFILE */
   .profile {
     display: -webkit-flex;
