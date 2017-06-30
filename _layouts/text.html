@@ -20,7 +20,7 @@ layout: default
             <li>{{ page.pubdate }}</li>
             </ul>
 
-            <p><img src="{{ page.image }}"></p>
+            <p><img src="{{ site.github.url }}{{ page.image }}"></p>
 
             <ul class="tags">
                 {% for tags in page.tags %}
