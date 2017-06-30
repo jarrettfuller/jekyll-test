@@ -296,12 +296,17 @@ article img {
 .colophon h4 {
     text-transform: uppercase;
     padding-top: 15px;
+    font-size: 12px;
+    width: 80%;
+        border-bottom: 1px solid grey;
+    margin-bottom: 5px;
 }
 .colophon h4:first-child {
     padding-top: 0px;
 }
 .tags {
     margin-left: -5px;
+    width: 80%;
 }
 .tags li {
     border: 1px solid black;
