@@ -1,21 +1,23 @@
 ---
-title: Projects
-layout: projects
+title: Archive
+layout: archive
 ---
 
 <main class="preview" id="all-container">
   {% for post in site.posts %}
-
         <a href="{{ site.baseurl }}{{ post.url }}">
         <div class="object">
+            <div class="year">{{ post.pubdate }}</div>
             <div class="project">{{ post.title }}</div>
-            <div class="type">{{ post.tags }}</div>
-            <div class="year">{{ post.year }}</div>
+            <div class="type">{{ post.categories }}</div>
+            <div class="publication">{{ post.publication }}</div>
         </div>
-            <img src="{{ post.image }}"></a>
+    </a>
 
     {% endfor %}
 
-    </main>
+</main>
 
 <section class="clear"></section>
+
+

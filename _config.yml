@@ -1,5 +1,5 @@
 ---
-title: Jekyll Test
+title: Kyle Chayka
 timezone: UTC
 collections:
   archive:
@@ -17,8 +17,8 @@ defaults:
     path: ''
   values:
     layout: default
-name: Jarrett Fuller
-description: Designer, Writer, Podcaster
+name: Kyle Chayka
+description: Writer
 avatar: 
 footer-links:
   dribbble: 

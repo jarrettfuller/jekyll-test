@@ -3,16 +3,34 @@ layout: default
 ---
 
     <div class="object">
-            <div class="year">{{ page.publish }}</div>
+
+
             <div class="essay">
             <article>
-               <h3>{{ page.title }}</h3>
+<h3>{{ page.title }}</h3>
 
     {{ content }}
 
 </article>
         </div>
+        <div class="colophon">
+            <h4>Colophon</h4>
+        <ul>
+            <li>Originally published in <a href="{{ page.link }}">{{ page.publication }} <i class="fa fa-external-link-square" aria-hidden="true"></i></a></li>
+            <li>{{ page.pubdate }}</li>
+            <li>{{ page.categories }}</li>
+            </ul>
 
+            <h4>Image</h4>
 
+            <p><img src="{{ site.github.url }}{{ page.image }}"></p>
+
+            <h4>Tags</h4>
+            <ul class="tags">
+                {% for tags in page.tags %}
+                <li>{{ tags }}</li>
+                {% endfor %}
+    </ul>
+        </div>
 
 

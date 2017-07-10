@@ -1,0 +1,104 @@
+---
+layout: default
+---
+
+<div id="container">
+
+      <ul class="blog-categories-list clearfix">
+          <a href onclick="filter('all'); return false;"><li class="blog-categories-item">All</li></a>
+        {% assign sorted_categories = site.categories | sort %}
+        {% for category in sorted_categories %}
+          {% assign c = category | first %}
+          {% assign posts = category | last %}
+          <a href onclick="filter('{{ c }}'); return false;"><li class="blog-categories-item" id="{{ c }}-item">
+            {{ c }}
+          </li></a>
+        {% endfor %}
+      </ul>
+
+    <main class="preview">
+
+<div class="object order">
+<div class="year order">Date</div>
+<div class="project order">Title</div>
+<div class="type order">Type</div>
+<div class="publication order">Publication</div>
+</div>
+
+      <div class="blog-list-container" id="all-container">
+
+          {% for post in site.posts %}
+                           <a href="{{ site.baseurl }}{{ post.url }}">
+        <div class="object">
+<div class="year">{{ post.pubdate }}</div>
+            <div class="project">{{ post.title }}</div>
+            <div class="type">{{ post.categories }}</div>
+            <div class="publication">{{ post.publication }}</div>
+        </div>
+          {% endfor %}
+      </div>
+
+      {% for category in site.categories %}
+        {% assign c = category | first %}
+        {% assign posts = category | last %}
+        <div class="blog-list-container hidden" id="{{ c }}-container">
+
+            {% for post in posts %}
+              {% if post.categorys contains c %}
+        <a href="{{ site.baseurl }}{{ post.url }}">
+        <div class="object">
+<div class="year">{{ post.pubdate }}</div>
+            <div class="project">{{ post.title }}</div>
+            <div class="type">{{ post.categories }}</div>
+            <div class="publication">{{ post.publication }}</div>
+        </div>
+              {% endif %}
+            {% endfor %}
+
+        </div>
+      {% endfor %}
+
+        </main>
+    </div>
+
+<script>
+
+    function filter(category) {
+  setActivecategory(category);
+  showContainer(category);
+}
+
+function setActivecategory(category) {
+  // loop through all items and remove active class
+  var items = document.getElementsByClassName('blog-categories-item');
+  for(var i=0; i < items.length; i++) {
+    items[i].setAttribute('class', 'blog-categories-item');
+  }
+
+  // set the selected category's item to active
+  var item = document.getElementById(category + '-item');
+  if(item) {
+    item.setAttribute('class', 'blog-categories-item active');
+  }
+}
+
+function showContainer(category) {
+  // loop through all lists and hide them
+  var lists = document.getElementsByClassName('blog-list-container');
+  for(var i=0; i < lists.length; i++) {
+    lists[i].setAttribute('class', 'blog-list-container hidden');
+  }
+
+  // remove the hidden class from the list corresponding to the selected category
+  var list = document.getElementById(category + '-container');
+  if(list) {
+    list.setAttribute('class', 'blog-list-container');
+  }
+}
+
+
+    </script>
+
+
+
+
