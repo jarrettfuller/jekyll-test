@@ -1,31 +1,4 @@
 /*----------- MASTER --------------*/
-.fonts {
-  font-family: 'Arimo', Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  color: #000000;
-}
-.serif {
-  font-family: 'Average', Georgia, Times, serif;
-  font-size: 20px;
-  line-height: 1.6em;
-}
-.links {
-  font-size: 16px;
-  color: #000000;
-  text-decoration: none;
-}
-.links:hover {
-  border-bottom: 1px black solid;
-}
-.textbox {
-  border-top: 1px #ff0000 solid;
-  padding: 15px 50px 50px 50px;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-}
-/*----------- MASTER --------------*/
 * {
   padding: 0px;
   margin: 0px;
@@ -39,7 +12,6 @@ p {
   padding-bottom: 15px;
 }
 a {
-/*  font-family: 'Arimo', Helvetica, Arial, sans-serif;*/
   font-size: 16px;
   color: #000000;
   text-decoration: none;
@@ -103,7 +75,54 @@ nav li:first-child {
     font-weight: bold;
     font-size: 18px;
     line-height: 20px;
-    padding: 20px 40% 20px 50px;
+    padding: 20px 40% 100px 50px;
+}
+.homepage {
+    padding:20px 50px 50px 50px;
+    display: flex;
+    border-top: 1px lightgrey solid;
+    vertical-align: text-top;
+}
+.homepage h3 {
+    width: 15%;
+font-weight: bold;
+    font-family: "Space Mono";
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.featured {
+    width: 85%;
+    display: block;
+    vertical-align: text-top;
+}
+.hp {
+/*  border-top: 1px lightgrey solid;*/
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 20px;
+    width: 80%;
+    padding-bottom: 50px;
+}
+.hp_project {
+  width: 70%;
+  margin-right: 0px;
+  box-sizing: border-box;
+  padding-right: 30px;
+    font-weight: 700;
+      font-size: 30px;
+    line-height: 34px;
+}
+.hp_type {
+  width: 20%;
+    font-family: 'Space Mono';
+    font-size: 13px;
+}
+.hp_publication {
+  width: 20%;
+        font-family: 'Space Mono';
+        font-size: 13px;
+
 }
 /*----------- PROJECTS --------------*/
 .object {
@@ -114,15 +133,11 @@ nav li:first-child {
   display: flex;
   width: 100%;
   width: auto;
-  font-size: 18px;
   line-height: 20px;
-}
-.first {
-  border-top: none;
+    font-size: 16px;
 }
 .year {
   width: 20%;
-
 }
 .project {
   width: 40%;
@@ -130,6 +145,7 @@ nav li:first-child {
   box-sizing: border-box;
   padding-right: 30px;
     font-weight: 700;
+      font-size: 20px;
 }
 .type {
   width: 20%;
@@ -147,7 +163,45 @@ nav li:first-child {
     font-size: 12px;
     padding-top: 5px;
     padding-bottom: 5px;
+    border-top: none;
 }
+.hidden {
+  display: none!important;
+  visibility: hidden!important;
+}
+.blog-categories-list {
+        padding-bottom: 10px;
+        margin: auto;
+        border-top: 1px lightgrey solid;
+        padding: 15px 50px 25px 50px;
+        width: 100%;
+        width: auto;
+        text-align: center;
+        }
+.blog-categories-list a:hover {
+            color: lightgrey;
+        }
+.blog-categories-item {
+        float: left;
+    padding: 5px;
+    border: 1px black solid;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Space Mono', monospace;
+    text-transform: uppercase;
+    font-size: 12px;
+        }
+.blog-categories-item:first-child {
+    margin-left: 0px;
+        }
+.blog-categories-item:hover {
+    border-color: lightgrey;
+        }
+.blog-categories-item a:hover {
+    text-decoration: none;
+      border-bottom: 0px solid red;
+    color: lightgrey;
+        }
 
 /*----------- PROFILE --------------*/
 .profile {
@@ -163,6 +217,16 @@ nav li:first-child {
   border-top: none;
   align-items: baseline;
 margin-right: 5%;
+      font-family: 'Arimo', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #000000;
+    line-height: 22px;
+}
+.text a{
+    font-family: 'Arimo', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #000000;
+    border-bottom: 1px lightgrey solid;
 }
 
 .profile_section:first-child {
@@ -224,12 +288,6 @@ margin-right: 5%;
 .profile sidebar a:hover {
   border-bottom: 1px #000000 solid;
   color: black;
-}
-.img-hero {
-  border-top: 1px #ff0000 solid;
-  width: 100%;
-  margin-bottom: 0px;
-  max-height: 400px;
 }
 /*----------- WRITING --------------*/
 .essay {
@@ -314,6 +372,7 @@ article img {
     padding: 5px;
     margin: 5px;
 }
+/*
 figure {
   width: 135%;
 }
@@ -339,6 +398,7 @@ figcaption a {
 figcaption a:hover {
   color: red;
 }
+*/
 .footnote {
   font-family: 'Arimo', Helvetica, Arial, sans-serif;
   color: rgba(0, 0, 0, 0.6);
@@ -552,12 +612,6 @@ TABLET
     width: 100%;
     float: none;
     padding-bottom: 10px;
-  }
-  .year {
-    display: none;
-  }
-  .img-circle {
-    border-radius: 0%;
   }
   footer {
     flex-direction: column;

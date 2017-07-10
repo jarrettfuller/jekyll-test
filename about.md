@@ -25,7 +25,7 @@ at Maryland Institute College of between 2016 – 2017 where he taught <a href="
 
 
     <sidebar>
-    <p><img src="{{ site.github.url }}/images/5-csh22-twogirls.jpg"></p>
+    <p><img src="{{ site.github.url }}/images/kyle.jpeg"></p>
 
         <h4>Contact</h4>
                 <p><ul>
