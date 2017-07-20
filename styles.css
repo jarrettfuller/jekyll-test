@@ -144,6 +144,16 @@ font-weight: bold;
 .preview .object:hover {
     background-color: lightgray;
 }
+.column-titles {
+  padding: 25px 50px 25px 50px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  width: auto;
+  line-height: 20px;
+    font-size: 16px;
+}
 .order {
     font-weight: bold;
     font-family: "Space Mono";
@@ -152,9 +162,7 @@ font-weight: bold;
     padding-top: 5px;
     padding-bottom: 5px;
     border-top: none;
-}
-.order:hover {
-    background-color: white;
+
 }
 .hidden {
   display: none!important;
