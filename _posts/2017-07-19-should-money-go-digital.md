@@ -1,6 +1,6 @@
 ---
 title: Should Money Go Digital?
-categories: []
+categories: Essay
 layout: text
 date: '2017-07-19T23:36:37+00:00'
 pubdate: October 2013
