@@ -19,12 +19,9 @@ at Maryland Institute College of between 2016 – 2017 where he taught <a href="
 <p>With Rory King, he co-hosted the <a href="http://this-is-sway.tumblr.com">Sway podcast</a> where he discussed issues in design, education, and criticism. The podcast is part of a multi-disciplinary project that explored what design can be in an expanded sense through criticism, dialogue, and various experimental projects.</p>
 
 <p>Jarrett received his MFA in graphic design, with a critical studies concentration, in 2017 from the Maryland Institute College of Art and his BFA in graphic design in 2011 from Kutztown University.</p>
+</div>
 
-
-    </div>
-
-
-    <sidebar>
+<sidebar>
     <p><img src="{{ site.github.url }}/images/kyle.jpeg"></p>
 
         <h4>Contact</h4>
