@@ -5,7 +5,7 @@ layout: archive
 
 <main class="preview" id="all-container">
   {% for post in site.posts %}
-        <a href="{{ site.baseurl }}/{{ post.url }}">
+        <a href="{{ site.github.url }}{{ post.url }}">
         <div class="object">
             <div class="year">{{ post.pubdate }}</div>
             <div class="project">{{ post.title }}</div>

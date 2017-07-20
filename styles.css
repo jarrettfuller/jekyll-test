@@ -153,6 +153,9 @@ font-weight: bold;
     padding-bottom: 5px;
     border-top: none;
 }
+.order:hover {
+    background-color: white;
+}
 .hidden {
   display: none!important;
   visibility: hidden!important;
