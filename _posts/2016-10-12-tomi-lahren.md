@@ -1,7 +1,7 @@
 ---
 title: Tomi Lahren has some thoughts
 date: 2016-10-12 00:00:00 Z
-categories:
+tags:
 - Profile
 layout: text
 pubdate: October 2016

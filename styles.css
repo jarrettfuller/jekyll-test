@@ -168,7 +168,7 @@ font-weight: bold;
   display: none!important;
   visibility: hidden!important;
 }
-.blog-categories-list {
+.blog-tags-list {
         padding-bottom: 10px;
         margin: auto;
         border-top: 1px lightgrey solid;
@@ -177,10 +177,10 @@ font-weight: bold;
         width: auto;
         text-align: center;
         }
-.blog-categories-list a:hover {
+.blog-tags-list a:hover {
             color: lightgrey;
         }
-.blog-categories-item {
+.blog-tags-item {
         float: left;
     padding: 5px;
     border: 1px black solid;
@@ -190,13 +190,13 @@ font-weight: bold;
     text-transform: uppercase;
     font-size: 12px;
         }
-.blog-categories-item:first-child {
+.blog-tags-item:first-child {
     margin-left: 0px;
         }
-.blog-categories-item:hover {
+.blog-tags-item:hover {
     border-color: lightgrey;
         }
-.blog-categories-item a:hover {
+.blog-tags-item a:hover {
     text-decoration: none;
       border-bottom: 0px solid red;
     color: lightgrey;
