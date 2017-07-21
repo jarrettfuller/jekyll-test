@@ -2,6 +2,12 @@
 layout: default
 ---
 
+<style type="text/css">
+.object {
+border-top: 0px;
+    }
+</style>
+
     <div class="object">
 
 
@@ -22,15 +28,17 @@ layout: default
             </ul>
 
             <h4>Image</h4>
-
             <p><img src="{{ site.github.url }}{{ page.image }}"></p>
 
+
+<!--
             <h4>Tags</h4>
             <ul class="tags">
                 {% for categories in page.categories %}
                 <li>{{ categories }}</li>
                 {% endfor %}
     </ul>
+-->
         </div>
 
 

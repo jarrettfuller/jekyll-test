@@ -31,7 +31,7 @@
             <nav><ul>
                 <li><a href="{{ site.github.url }}/archive">Archive</a></li>
                 <li><a href="{{ site.github.url }}/news">News</a></li>
-                <li><a href="{{ site.github.url }}/about">Biography</a></li>
+                <li><a href="{{ site.github.url }}/bio">Biography</a></li>
              </ul></nav></header>
 
 
@@ -40,21 +40,8 @@
       {{ content }}
     </div>
 
-        <footer><div class="left"><p>&copy <script language="javascript" type="text/javascript">
-var today = new Date()
-var year = today.getFullYear()
-document.write(year)
-            </script> Kyle Chayla | <a href="#">Email</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a></p></div>
 
-            <div class="right">
-                 <form action="https://tinyletter.com/jarrettfuller" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/jarrettfuller', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Newsletter:</label> <input type="text" style="width:140px" name="email" id="tlemail" /><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /></form>
-
-
-
-
-
-                </p></div>
-    </footer>
+{% include footer.html %}
     </body>
 
 

@@ -33,9 +33,16 @@ ul {
   clear: both;
   display: block;
 }
+.headline {
+    padding: 20px 25px 20px 50px;
+    font-weight: bold;
+    font-family: "Space Mono";
+    text-transform: uppercase;
+    font-size: 12px;
+
+}
 /*----------- HEADER --------------*/
 header {
-  border-top: 1px #ff0000 solid;
   padding: 20px 70px 40px 50px;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -48,6 +55,7 @@ header {
   text-transform: uppercase;
   letter-spacing: 2px;
   box-sizing: border-box;
+        border-bottom: 1px solid black;
 }
 header h1 {
   font-weight: normal;
@@ -160,6 +168,7 @@ font-weight: bold;
     text-transform: uppercase;
     font-size: 12px;
     padding-top: 5px;
+    padding-top: 5px;
     padding-bottom: 5px;
     border-top: none;
 
@@ -171,7 +180,6 @@ font-weight: bold;
 .blog-tags-list {
         padding-bottom: 10px;
         margin: auto;
-        border-top: 1px lightgrey solid;
         padding: 15px 50px 25px 50px;
         width: 100%;
         width: auto;
@@ -182,8 +190,11 @@ font-weight: bold;
         }
 .blog-tags-item {
         float: left;
-    padding: 5px;
+    padding: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
     border: 1px black solid;
+    border-radius: 5px;
     margin-left: 5px;
     margin-right: 5px;
     font-family: 'Space Mono', monospace;
@@ -195,11 +206,8 @@ font-weight: bold;
         }
 .blog-tags-item:hover {
     border-color: lightgrey;
-        }
-.blog-tags-item a:hover {
-    text-decoration: none;
-      border-bottom: 0px solid red;
-    color: lightgrey;
+    background-color: lightgrey;
+    color: black;
         }
 
 /*----------- PROFILE --------------*/
@@ -209,7 +217,6 @@ font-weight: bold;
   display: flex;
   width: auto;
   padding: 15px 50px 50px 50px;
-    border-top: 1px solid lightgrey;
 }
 .text {
   width: 60%;
@@ -257,7 +264,7 @@ font-weight: bold;
   border-bottom: 1px black solid;
 }
 .text article a:hover {
-  border-bottom: 1px #ff0000 solid;
+  border-bottom: 1px lightgrey solid;
   color: red;
 }
 .profile sidebar {
@@ -313,17 +320,11 @@ article h4 {
 article a {
   font-family: 'Average', Georgia, Times, serif;
   font-size: 20px;
-  border-bottom: 1px #ff0000 solid;
+  border-bottom: 1px lightgrey solid;
 }
 article a:hover {
-  color: red;
-}
-article blockquote {
-  padding-left: 2em;
-  border-left: 1px #ff0000 solid;
-  font-style: italic;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  color: black;
+    border-bottom-color: black;
 }
 article hr {
   margin: 25px auto 40px auto;
@@ -360,17 +361,19 @@ article img {
 .colophon h4:first-child {
     padding-top: 0px;
 }
+/*
 .tags {
     margin-left: -5px;
     width: 80%;
 }
 .tags li {
     border: 1px solid black;
+    border-radius: 3px;
     float: left;
     padding: 5px;
     margin: 5px;
 }
-/*
+
 figure {
   width: 135%;
 }
@@ -397,36 +400,6 @@ figcaption a:hover {
   color: red;
 }
 */
-.footnote {
-  font-family: 'Arimo', Helvetica, Arial, sans-serif;
-  color: rgba(0, 0, 0, 0.6);
-  vertical-align: super;
-  font-size: .6em;
-  padding-left: 1px;
-  padding-right: 1px;
-  line-height: 0px;
-  border-bottom: none;
-}
-.notes {
-  font-family: 'Arimo', Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  color: #000000;
-  line-height: 1.5em;
-  border-top: 1px #ff0000 solid;
-  margin-top: 25px;
-  padding-top: 25px;
-  color: rgba(0, 0, 0, 0.5);
-}
-.notes a {
-  font-family: 'Arimo', Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  color: #000000;
-  border-bottom: 1px #ff0000 solid;
-  color: rgba(0, 0, 0, 0.5);
-}
-.notes a:hover {
-  color: red;
-}
 /*----------- RESPONSIVE VIDEO --------------*/
 .responsive-container {
   position: relative;
@@ -444,7 +417,7 @@ figcaption a:hover {
 }
 /*----------- FOOTER --------------*/
 footer {
-  border-top: 1px lightgrey solid;
+  border-top: 1px black solid;
   padding: 15px 50px 50px 50px;
   display: -webkit-flex;
   display: -ms-flexbox;

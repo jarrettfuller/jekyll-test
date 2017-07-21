@@ -8,7 +8,7 @@ categories:
 - money
 publication: The New Yorker
 link: http://www.newyorker.com/business/currency/should-money-go-digital
-image: ''
+image: '/images/no-image.png'
 ---
 
 

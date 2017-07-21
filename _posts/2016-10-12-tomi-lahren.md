@@ -7,6 +7,8 @@ layout: text
 pubdate: October 2016
 publication: The Ringer
 link: https://theringer.com/tomi-lahren-profile-499f9e1930f9
+image: '/images/no-image.png'
+
 ---
 
 "White does not mean racist.”

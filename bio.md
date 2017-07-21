@@ -1,8 +1,11 @@
 ---
 title: About
-permalink: "/about/"
-layout: page
+permalink: "/bio/"
+layout: default
 ---
+
+<div class="headline">
+    Biography</div>
 
 <div class="profile">
 <div class="text">
@@ -22,23 +25,18 @@ at Maryland Institute College of between 2016 – 2017 where he taught <a href="
 </div>
 
 <sidebar>
-    <p><img src="{{ site.github.url }}/images/kyle.jpeg"></p>
+    <p><img src="{{ site.github.url }}/images/kchayka.jpg"></p>
 
-        <h4>Contact</h4>
-                <p><ul>
-                    <li><a href="mailto:jarrettfuller@gmail.com">Email</a></li>
-                    <li><a href="http://www.twitter.com/jarrettfuller">Twitter</a></li>
-                    <li><a href="http://www.instagram.com/jarrettfuller">Instagram</a></li>
-                    <li><a href="https://www.flickr.com/photos/jarrettfuller/">Flickr</a></li>
-                    <li><a href="https://open.spotify.com/user/jarrettfuller">Spotify</a></li>
-                    <li><a href="https://github.com/jarrettfuller">Github</a></li><li><a href="http://hellomannequin.tumblr.com">Tumblr</a></li></ul>
-                    </p>
+<h4>Contact</h4>
+    <p><ul>
+        <li><a href="mailto:jarrettfuller@gmail.com">Email</a></li>
+        <li><a href="http://www.twitter.com/jarrettfuller">Twitter</a></li>
+        <li><a href="http://www.instagram.com/jarrettfuller">Instagram</a></li>
+        <li><a href="https://www.flickr.com/photos/jarrettfuller/">Flickr</a></li>
+        <li><a href="https://open.spotify.com/user/jarrettfuller">Spotify</a></li>
+        <li><a href="https://github.com/jarrettfuller">Github</a></li><li><a href="http://hellomannequin.tumblr.com">Tumblr</a></li></ul>
+        </p>
 
-                <h4>PDF Downloads</h4>
-                <p><ul>
-                    <li><a href="/extras/jarrettfuller-portfolio.pdf">Portfolio</a></li>
-                    <li><a href="/extras/jarrettfuller-resume.pdf">Resume</a></li>
-                    </ul>
-                </p>
+
         </sidebar>
 </div>
