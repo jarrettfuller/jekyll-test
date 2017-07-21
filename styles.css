@@ -559,16 +559,6 @@ nav li:first-child {
         -webkit-order: 1;
         -ms-order: 1;
       }
-    .profile_section {
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        flex-direction: column;
-        padding-top: 25px;
-      }
-    .profile_section h4 {
-        width: auto;
-      }
     .text article {
         margin-right: 0px;
         width: auto;
