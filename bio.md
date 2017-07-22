@@ -4,7 +4,7 @@ permalink: "/bio/"
 layout: default
 ---
 
-<div class="headline">
+<div class="headline-bio">
     Biography</div>
 
 <div class="profile">
