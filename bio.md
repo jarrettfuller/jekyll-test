@@ -1,5 +1,5 @@
 ---
-title: About
+title: Biography
 permalink: "/bio/"
 layout: default
 ---
