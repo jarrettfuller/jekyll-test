@@ -34,21 +34,36 @@ ul {
   display: block;
 }
 .headline {
-    padding: 45px 25px 5px 50px;
+    padding: 15px 25px 60px 50px;
 /*    padding: 20px 25px 20px 50px;*/
+/*
     font-weight: bold;
     font-family: "Space Mono";
     text-transform: uppercase;
     font-size: 12px;
+*/
+}
+.headline h2 {
+  font-family: 'Arimo', Helvetica, Arial, sans-serif;
+  font-size: 30px;
 }
 .headline-bio {
-    padding: 45px 25px 5px 50px;
+    padding: 15px 25px 30px 50px;
+/*
     font-weight: bold;
     font-family: "Space Mono";
     text-transform: uppercase;
     font-size: 12px;
     border-bottom: 1px lightgrey solid;
+*/
 }
+
+.headline-bio h2 {
+  font-family: 'Arimo', Helvetica, Arial, sans-serif;
+  font-size: 30px;
+
+}
+
 /*----------- HEADER --------------*/
 header {
   padding: 20px 70px 40px 50px;
@@ -314,7 +329,6 @@ article {
 }
 article h3 {
   font-family: 'Arimo', Helvetica, Arial, sans-serif;
-  font-size: 26px;
   color: #000000;
   font-size: 30px;
   padding-right: 10px;
