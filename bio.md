@@ -5,7 +5,7 @@ layout: default
 ---
 
 <div class="headline-bio">
-    <h2>Biography</h2></div>
+    Biography</div>
 
 <div class="profile">
 <div class="text">
