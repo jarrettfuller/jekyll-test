@@ -84,11 +84,6 @@ header h1 {
   padding-right: 100px;
   box-sizing: border-box;
     }
-/*
-.name {
-    width: 15%;
-}
-*/
 nav {
   width: 40%;
   font-size: 10px;
@@ -100,6 +95,19 @@ nav li {
 nav li:first-child {
   padding-left: 0px;
   margin-left: 0px;
+}
+.site-title {
+    width: 15%;
+}
+.site-title a {
+    border-bottom: 1px black solid;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.page-title {
+    box-sizing: border-box;
+    width: 46%;
+    padding-right: 50px;
 }
 
 
@@ -508,6 +516,13 @@ TABLET
     padding-top: 25px;
     flex-direction: column;
   }
+.site-title {
+    width: 50%;
+}
+.page-title {
+    width: 50%;
+    padding-right: 0px;
+}
 nav {
     float: none;
     padding-top: 10px;

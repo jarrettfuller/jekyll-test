@@ -1,13 +1,36 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+        <meta charset="UTF-8">
+            <link rel="stylesheet" type="text/css" href="{{ site.github.url }}/styles.css" />
+<link href="https://fonts.googleapis.com/css?family=Arimo|Space+Mono" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Average" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" type="image/png" href="{{ site.github.url }}/images/favicon.jpg">
 
 <style type="text/css">
+            header h1 a {
+              border-bottom: 1px black solid;
+              text-transform: uppercase;
+                letter-spacing: 2px;
+    }
 .object {
 border-top: 0px;
     padding-top: 15px;
     }
 </style>
+        </head>
+    <body id="top">
+<header><h1><a href="{{ site.github.url }}/">Kyle Chayka</a></h1>
+            <nav><ul>
+                <li><a href="{{ site.github.url }}/archive">Archive</a></li>
+                <li><a href="{{ site.github.url }}/news">News</a></li>
+                <li><a href="{{ site.github.url }}/bio">Biography</a></li>
+             </ul></nav></header>
+
+
 
     <div class="object">
 
@@ -41,5 +64,12 @@ border-top: 0px;
     </ul>
 -->
         </div>
+        </div>
+
+{% include footer.html %}
+
+        </body>
 
 
+
+</html>
