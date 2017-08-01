@@ -29,7 +29,9 @@ at Maryland Institute College of between 2016 – 2017 where he taught <a href="
 <sidebar>
     <p><img src="{{ site.github.url }}/images/kchayka.jpg"></p>
 
-<h4>Contact</h4>
+
+
+<h4>Contact Information</h4>
     <p><ul>
         <li><a href="mailto:jarrettfuller@gmail.com">Email</a></li>
         <li><a href="http://www.twitter.com/jarrettfuller">Twitter</a></li>
@@ -38,7 +40,6 @@ at Maryland Institute College of between 2016 – 2017 where he taught <a href="
         <li><a href="https://open.spotify.com/user/jarrettfuller">Spotify</a></li>
         <li><a href="https://github.com/jarrettfuller">Github</a></li><li><a href="http://hellomannequin.tumblr.com">Tumblr</a></li></ul>
         </p>
-
 
         </sidebar>
 </div>

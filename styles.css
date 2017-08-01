@@ -96,22 +96,6 @@ nav li:first-child {
   padding-left: 0px;
   margin-left: 0px;
 }
-/*
-.site-title {
-    width: 15%;
-}
-.site-title a {
-    border-bottom: 1px black solid;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-.page-title {
-    box-sizing: border-box;
-    width: 46%;
-    padding-right: 50px;
-}
-*/
-
 
 /*----------- HOMEPAGE --------------*/
 .intro {
@@ -157,7 +141,8 @@ font-weight: bold;
 .first {
   border-top: 0px solid;
 }
-/*----------- PROJECTS --------------*/
+
+/*----------- ARCHIVE --------------*/
 .object {
   border-top: 1px lightgrey solid;
   padding: 25px 50px 25px 50px;
@@ -208,167 +193,82 @@ font-weight: bold;
     padding-top: 5px;
     padding-bottom: 5px;
     border-top: none;
-
 }
 .hidden {
-  display: none!important;
-  visibility: hidden!important;
+    display: none!important;
+    visibility: hidden!important;
 }
 .blog-tags-list {
-        padding-bottom: 10px;
-        margin: auto;
-        padding: 15px 50px 25px 50px;
-        width: 100%;
-        width: auto;
-        text-align: center;
-        }
+    padding-bottom: 10px;
+    margin: auto;
+    padding: 15px 50px 25px 50px;
+    width: 100%;
+    width: auto;
+    text-align: center;
+    }
 .blog-tags-list a:hover {
-            color: lightgrey;
-        }
+    color: lightgrey;
+    }
 .blog-tags-item {
-        float: left;
+    float: left;
     padding: 6px;
     padding-left: 8px;
     padding-right: 8px;
-    border: 1px black solid;
+    border: 1px #999999 solid;
     border-radius: 5px;
     margin-left: 5px;
     margin-right: 5px;
     font-family: 'Space Mono', monospace;
     text-transform: uppercase;
     font-size: 12px;
-        }
+    }
 .blog-tags-item:first-child {
     margin-left: 0px;
-        }
+    }
 .blog-tags-item:hover {
     border-color: lightgrey;
     background-color: lightgrey;
     color: black;
-        }
+    }
 
-/*----------- PROFILE --------------*/
-.profile {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: auto;
-  padding: 15px 50px 50px 50px;
-}
-.text {
-  width: 60%;
-  border-top: none;
-  align-items: baseline;
-  box-sizing: border-box;
-  padding-right: 40px;
-  font-family: 'Arimo', Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  color: #000000;
-  line-height: 22px;
-}
-.text a{
-    font-family: 'Arimo', Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  color: #000000;
-    border-bottom: 1px lightgrey solid;
-}
-.profile_section:first-child {
-  padding-top: 0px;
-}
-.profile_section h4 {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  width: 25%;
-    font-size: 16px;
-}
-.text article {
-  font-family: 'Arimo', Helvetica, Arial, sans-serif;
-  font-size: 16px;
-      line-height: 1.6em;
-  color: #000000;
-  padding-bottom: 0px;
-  margin-right: 50px;
-  -webkit-flex: 3;
-  -ms-flex: 3;
-  flex: 3;
-  width: 50%;
-}
-.text article a {
-  font-family: 'Arimo', Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  color: #000000;
-  border-bottom: 1px black solid;
-}
-.text article a:hover {
-  border-bottom: 1px lightgrey solid;
-  color: red;
-}
-.profile sidebar {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-}
-.profile img {
-    width: 60%;
-}
-.profile sidebar h4 {
-    font-size: 16px;
-}
-.profile sidebar li {
-  list-style: none inside;
-      font-family: 'Arimo', Helvetica, Arial, sans-serif;
-  font-size: 16px;
-    line-height: 1.3em;
-}
-.profile sidebar a {
-    font-family: 'Arimo', Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  color: #000000;
-  border-bottom: 0px black solid;
-}
-.profile sidebar a:hover {
-  border-bottom: 1px #000000 solid;
-  color: black;
-}
 /*----------- WRITING --------------*/
 .essay {
-  width: 55%;
+    width: 55%;
     margin-right: 5%;
 }
 article {
-  font-family: 'Average', Georgia, Times, serif;
-  font-size: 20px;
-  line-height: 1.6em;
+    font-family: 'Average', Georgia, Times, serif;
+    font-size: 20px;
+    line-height: 1.6em;
 }
 article h3 {
-  font-family: 'Arimo', Helvetica, Arial, sans-serif;
-  color: #000000;
-  font-size: 30px;
-  padding-right: 10px;
-  margin-bottom: 50px;
+    font-family: 'Arimo', Helvetica, Arial, sans-serif;
+    color: #000000;
+    font-size: 30px;
+    padding-right: 10px;
+    margin-bottom: 50px;
 }
 article h4 {
-  font-family: 'Arimo', Helvetica, Arial, sans-serif;
-  color: #000000;
-  font-size: 20px;
+    font-family: 'Arimo', Helvetica, Arial, sans-serif;
+    color: #000000;
+    font-size: 20px;
 }
 article a {
-  font-family: 'Average', Georgia, Times, serif;
-  font-size: 20px;
-  border-bottom: 1px lightgrey solid;
+    font-family: 'Average', Georgia, Times, serif;
+    font-size: 20px;
+    border-bottom: 1px lightgrey solid;
 }
 article a:hover {
-  color: black;
+    color: black;
     border-bottom-color: black;
 }
 article hr {
-  margin: 25px auto 40px auto;
-  max-width: 25%;
-  border: 1px solid rgba(0, 0, 0, 1);
+    margin: 25px auto 40px auto;
+    max-width: 25%;
+    border: 1px solid rgba(0, 0, 0, 1);
 }
 article img {
-  width: 100%;
+    width: 100%;
 }
 .colophon {
     width: 30%;
@@ -391,7 +291,7 @@ article img {
     padding-top: 15px;
     font-size: 12px;
     width: 80%;
-        border-bottom: 1px solid grey;
+    border-bottom: 1px solid grey;
     margin-bottom: 5px;
 }
 .colophon h4:first-child {
@@ -436,6 +336,91 @@ figcaption a:hover {
   color: red;
 }
 */
+
+/*----------- NEWS --------------*/
+.news {
+    display: flex;
+    }
+.news-title {
+    width: 20%;
+    padding-right: 25px;
+    box-sizing: border-box;
+    }
+.news-title p {
+    font-family: "space Mono";
+    text-transform: uppercase;
+    font-size: 13px;
+    }
+.news-item {
+    width: 60%;
+    }
+.news p {
+    padding-bottom: 0px;
+}
+
+/*----------- BIOGRAPHY --------------*/
+.profile {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+  padding: 25px 50px 50px 50px;
+}
+.text {
+  width: 60%;
+  border-top: none;
+  align-items: baseline;
+  box-sizing: border-box;
+  padding-right: 40px;
+  font-family: 'Arimo', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #000000;
+  line-height: 22px;
+}
+.text a {
+    font-family: 'Arimo', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #000000;
+    border-bottom: 1px lightgrey solid;
+}
+.text a:hover{
+    border-bottom: 1px black solid;
+}
+.profile sidebar {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.profile img {
+    width: 60%;
+}
+.profile sidebar h4 {
+    text-transform: uppercase;
+    padding-top: 5px;
+    font-size: 14px;
+    width: 60%;
+        border-bottom: 1px solid grey;
+    margin-bottom: 5px;
+    font-family: 'Space Mono';
+    letter-spacing: 1px;
+}
+.profile sidebar li {
+  list-style: none inside;
+      font-family: 'Arimo', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+    line-height: 1.3em;
+}
+.profile sidebar a {
+    font-family: 'Arimo', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #000000;
+  border-bottom: 0px black solid;
+}
+.profile sidebar a:hover {
+  border-bottom: 1px #000000 solid;
+  color: black;
+}
+
 /*----------- RESPONSIVE VIDEO --------------*/
 .responsive-container {
   position: relative;
@@ -487,6 +472,8 @@ TABLET
   .essay {
     width: 75%;
   }
+
+/*
   figure {
     width: 100%;
   }
@@ -497,14 +484,20 @@ TABLET
     width: 100%;
     padding-bottom: 20px;
   }
-  /* PROFILE */
-  .profile_section {
-    width: 100%;
+*/
+
+/* NEWS */
+.news {
     flex-direction: column;
-  }
-  .profile_section h4 {
+    }
+.news-title {
     width: 100%;
-  }
+    }
+.news-item {
+    width: 100%;
+    }
+
+  /* BIOGRAPHY */
   .text article {
     width: 100%;
   }
@@ -514,7 +507,7 @@ TABLET
 ----------------------------------- */
 @media only screen and (max-width: 715px) {
 
-    header {
+header {
     padding-bottom: 30px;
     padding-left: 25px;
     padding-top: 25px;
@@ -555,7 +548,7 @@ nav li:first-child {
         width: 100%;
         }
 
-/*PROJECTS */
+/*ARCHIVE */
     .object {
         flex-direction: column;
         padding-left: 25px;
@@ -581,7 +574,7 @@ nav li:first-child {
         display: none;
         }
 
-/* PROFILE */
+/* BIOGRAPHY */
     .profile {
         flex-direction: column;
         width: 100%;
@@ -607,7 +600,8 @@ nav li:first-child {
         padding-left: 0px;
       }
       .profile sidebar h4 {
-        margin-bottom: 0px;
+        width: 100%;
+          border-bottom: 0px;
       }
     .profile sidebar img {
         width: 100%;
@@ -638,6 +632,16 @@ nav li:first-child {
         width: 100%;
     }
 
+/* NEWS */
+.news {
+    flex-direction: column;
+    }
+.news-title {
+    width: 100%;
+    }
+.news-item {
+    width: 100%;
+    }
 /* FOOTER */
     footer {
         flex-direction: column;
