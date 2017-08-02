@@ -41,5 +41,8 @@ at Maryland Institute College of between 2016 – 2017 where he taught <a href="
         <li><a href="https://github.com/jarrettfuller">Github</a></li><li><a href="http://hellomannequin.tumblr.com">Tumblr</a></li></ul>
         </p>
 
+<h4>Site Information</h4>
+        <p class="credits">Design and built by <a href="http://www.jarrettfuller.com">Jarrett Fuller</a></p>
+
         </sidebar>
 </div>
