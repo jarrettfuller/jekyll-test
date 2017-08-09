@@ -414,11 +414,20 @@ figcaption a:hover {
     font-family: 'Arimo', Helvetica, Arial, sans-serif;
   font-size: 16px;
   color: #000000;
-  border-bottom: 0px black solid;
+    border-bottom: 1px lightgrey solid;
 }
 .profile sidebar a:hover {
   border-bottom: 1px #000000 solid;
   color: black;
+}
+.credits {
+    width: 60%;
+    font-size: 14px;
+    line-height: 18px;
+}
+sidebar .credits a {
+    font-weight: bold;
+    font-size: 14px;
 }
 
 /*----------- RESPONSIVE VIDEO --------------*/
@@ -516,7 +525,7 @@ header {
   }
 nav {
     float: none;
-    padding-top: 10px;
+    padding-top: 20px;
     width: 100%;
   }
 nav li:first-child {
@@ -574,6 +583,9 @@ nav li:first-child {
     .order {
         display: none;
         }
+    .blog-tags-list {
+    padding: 15px 25px 25px 25px;
+    }
 
 /* BIOGRAPHY */
     .profile {
@@ -607,6 +619,9 @@ nav li:first-child {
     .profile sidebar img {
         width: 100%;
         }
+    .credits {
+        width: 100%;
+    }
 
 /* WRITING */
     .essay {

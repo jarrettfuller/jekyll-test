@@ -27,22 +27,21 @@ at Maryland Institute College of between 2016 – 2017 where he taught <a href="
 </div>
 
 <sidebar>
-    <p><img src="{{ site.github.url }}/images/kchayka.jpg"></p>
-
-
+<p><img src="{{ site.github.url }}/images/kchayka.jpg"></p>
 
 <h4>Contact Information</h4>
-    <p><ul>
-        <li><a href="mailto:jarrettfuller@gmail.com">Email</a></li>
-        <li><a href="http://www.twitter.com/jarrettfuller">Twitter</a></li>
-        <li><a href="http://www.instagram.com/jarrettfuller">Instagram</a></li>
-        <li><a href="https://www.flickr.com/photos/jarrettfuller/">Flickr</a></li>
-        <li><a href="https://open.spotify.com/user/jarrettfuller">Spotify</a></li>
-        <li><a href="https://github.com/jarrettfuller">Github</a></li><li><a href="http://hellomannequin.tumblr.com">Tumblr</a></li></ul>
+        <p>
+        <ul>
+            <li><a href="mailto:jarrettfuller@gmail.com">Email</a></li>
+            <li><a href="https://twitter.com/chaykak">Twitter</a></li>
+            <li><a href="http://tinyletter.com/chaykak/">Tinyletter</a></li>
+            <li><a href="http://kchayka.tumblr.com">Tumblr</a></li>
+            <li><a href="https://medium.com/@chaykak">Medium</a></li>
+            <li><a href="https://www.instagram.com/kchayka/">Instagram</a></li>
+        </ul>
         </p>
 
 <h4>Site Information</h4>
-        <p class="credits">Design and built by <a href="http://www.jarrettfuller.com">Jarrett Fuller</a></p>
-
-        </sidebar>
+        <p class="credits">This site is designed and built by <a href="http://www.jarrettfuller.com">Jarrett Fuller</a> and is fully open source. It is built with <a href="https://jekyllrb.com">Jekyll</A> and hosted on <a href="https://github.com/jarrettfuller/kyle-chayka">GitHub</A>.</p>
+</sidebar>
 </div>
