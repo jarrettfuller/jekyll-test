@@ -12,18 +12,15 @@ layout: default
 <div class="profile">
 <div class="text">
 
-<p>Jarrett Fuller is an independent designer, writer, podcaster, and educator based in Brooklyn, NY. He’s worked with clients large and small, including Instagram, Johns Hopkins University, Maryland Institute College of Art, and Wondermade Confectioners.</p>
+<p>I am a writer living in Brooklyn, NY. I have contributed to publications including <i>The New York Times Magazine</i>, <i>New Republic</i>, <i>Businessweek</i>, <i>n+1</i>, and many others. My work takes the form of reportage, criticism, and essays on topics that range from technology to political media, visual art, business, and architecture. My favorite writing dissects systems of cultural production and the manufacturing of cultural authority.</p>
 
-<p>He hosts the weekly podcast, <a href="http://www.scratchingthesurface.fm">Scratching the Surface</a>, where he interviews designers, writers, critics, and researchers about the intersection of design criticism and practice. Previous guests have included Michael Bierut, Alexandra Lange, Steven Heller, Experimental Jetset, Jessica Helfand, and Michael Rock.</p>
+<p>My first book, an essay on minimalism, will be published in the United States by Bloomsbury in 2019. My writing has also been included as chapters in <i>Reading Pop Culture: A Portable Anthology</i> (Bedford St. Martin’s, 2013) and <i>A Companion to Digital Art</i> (Wiley-Blackwell, 2015). I am represented by Caroline Eisenmann at Frances Goldin Literary Agency.</p>
 
-<p>He was on the adjunct faculty in the undergraduate graphic design department
-at Maryland Institute College of between 2016 – 2017 where he taught <a href="http://jarrettfuller.com/projects/dux">User Experience/User Interface</a> courses and was a teacher’s assistant for design history and theory courses for two semesters.</p>
+<p>I graduated from Tufts University in 2010, studying International Relations with a focus on China and art history. I have held staff jobs at <i>Leap</i>, an art magazine in Beijing; Hyperallergic, a Brooklyn art blog; and Artinfo. I have worked as a freelance writer since 2012.</p>
 
-<p>From 2013 to 2015, he was a designer at <a href="http://www.facebook.com">Facebook</a> on their Business Marketing team where he worked on a range of interactive, branding, and environmental projects. Previously he was a designer at <a href="http://www.warbyparker.com">Warby Parker</a> and helped develop the brand through a range of web, print, and retail projects. In 2016, he was an intern at <a href="http://www.whitney.org">The Whitney Museum of American Art</a>. He was a 2016 participant in <a href="https://www.canopycanopycanopy.com/education#intensive">Triple Canopy’s Publication Intensive</a>, a two-week workshop that explores the history and future of publishing.</p>
+<p>I also organized several art exhibitions as a curator. <a href="http://www.newsweek.com/selfie-art-one-gallery-thinks-so-445"><i>National #Selfie Portrait Gallery</i></a> was installed at the Moving Image London Art Fair in 2013 and received wide media coverage; <a href="http://garisandhahn.com/portfolio/dying-on-stage-new-painting-in-new-york/"><i>Dying on Stage: New Painting in New York</i></a> was installed at Garis & Hahn gallery in the Lower East Side in 2013; and <a href="https://www.theguardian.com/technology/2013/mar/12/vine-twitter-moving-image-art-fair"><i>Shortest Video Art Ever $old!</i></a> was installed at Moving Image New York 2013.</p>
 
-<p>With Rory King, he co-hosted the <a href="http://this-is-sway.tumblr.com">Sway podcast</a> where he discussed issues in design, education, and criticism. The podcast is part of a multi-disciplinary project that explored what design can be in an expanded sense through criticism, dialogue, and various experimental projects.</p>
-
-<p>Jarrett received his MFA in graphic design, with a critical studies concentration, in 2017 from the Maryland Institute College of Art and his BFA in graphic design in 2011 from Kutztown University.</p>
+<p>In 2015, I founded the freelance journalist collective <a href="http://studyhall.xyz">Study Hall</a> with Peter Moskowitz. Based in Brooklyn, Study Hall coordinates shared office space, live events, and a digital community for independent writers. </p>
 </div>
 
 <sidebar>
@@ -32,7 +29,7 @@ at Maryland Institute College of between 2016 – 2017 where he taught <a href="
 <h4>Contact Information</h4>
         <p>
         <ul>
-            <li><a href="mailto:jarrettfuller@gmail.com">Email</a></li>
+            <li><a href="mailto:chaykak@gmail.com">Email</a></li>
             <li><a href="https://twitter.com/chaykak">Twitter</a></li>
             <li><a href="http://tinyletter.com/chaykak/">Tinyletter</a></li>
             <li><a href="http://kchayka.tumblr.com">Tumblr</a></li>

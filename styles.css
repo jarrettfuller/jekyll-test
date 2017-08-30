@@ -355,7 +355,14 @@ figcaption a:hover {
     width: 60%;
     }
 .news p {
-    padding-bottom: 0px;
+    padding-bottom: 10px;
+}
+.news-item a {
+    border-bottom: 1px lightgrey solid;
+}
+.news-item a:hover {
+  border-bottom: 1px #000000 solid;
+  color: black;
 }
 
 /*----------- BIOGRAPHY --------------*/
