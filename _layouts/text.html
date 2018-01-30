@@ -1,6 +1,35 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+        <meta charset="UTF-8">
+            <link rel="stylesheet" type="text/css" href="{{ site.github.url }}/styles.css" />
+<link href="https://fonts.googleapis.com/css?family=Arimo|Space+Mono" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Average" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" type="image/png" href="{{ site.github.url }}/images/favicon.jpg">
+
+<style type="text/css">
+            header h1 a {
+              border-bottom: 1px black solid;
+              text-transform: uppercase;
+                letter-spacing: 2px;
+    }
+.object {
+border-top: 0px;
+    }
+</style>
+        </head>
+    <body id="top">
+<header><h1><a href="{{ site.github.url }}/">Kyle Chayka</a></h1>
+            <nav><ul>
+                <li><a href="{{ site.github.url }}/archive">Archive</a></li>
+                <li><a href="{{ site.github.url }}/bio">Biography</a></li>
+                <li><a href="{{ site.github.url }}/book">Book</a></li>
+             </ul></nav></header>
+
+
 
     <div class="object">
 
@@ -18,19 +47,28 @@ layout: default
         <ul>
             <li>Originally published in <a href="{{ page.link }}">{{ page.publication }} <i class="fa fa-external-link-square" aria-hidden="true"></i></a></li>
             <li>Date: {{ page.pubdate }}</li>
-            <li>Category: {{ page.categories }}</li>
+            <li>Category: {{ page.tags }}</li>
             </ul>
 
             <h4>Image</h4>
-
             <p><img src="{{ site.github.url }}{{ page.image }}"></p>
 
+
+<!--
             <h4>Tags</h4>
             <ul class="tags">
-                {% for tags in page.tags %}
-                <li>{{ tags }}</li>
+                {% for categories in page.categories %}
+                <li>{{ categories }}</li>
                 {% endfor %}
     </ul>
+-->
+        </div>
         </div>
 
+{% include footer.html %}
 
+        </body>
+
+
+
+</html>

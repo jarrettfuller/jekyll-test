@@ -1,14 +1,14 @@
 ---
 title: Should Money Go Digital?
-categories: Essay
+tags: Essay
 layout: text
 date: '2013-10-19T23:36:37+00:00'
 pubdate: October 2013
-tags:
+categories:
 - money
 publication: The New Yorker
 link: http://www.newyorker.com/business/currency/should-money-go-digital
-image: ''
+image: '/images/no-image.png'
 ---
 
 

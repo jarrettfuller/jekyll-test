@@ -1,12 +1,14 @@
 ---
 title: Tomi Lahren has some thoughts
 date: 2016-10-12 00:00:00 Z
-categories:
+tags:
 - Profile
 layout: text
 pubdate: October 2016
 publication: The Ringer
 link: https://theringer.com/tomi-lahren-profile-499f9e1930f9
+image: '/images/no-image.png'
+
 ---
 
 "White does not mean racist.”
