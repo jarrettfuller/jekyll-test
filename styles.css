@@ -283,8 +283,12 @@ article img {
     width: 80%;
 }
 .colophon a {
-    border-bottom: 1px solid black;
+    border-bottom: 0px;
+    font-weight: bold;
     font-size: 11px;
+}
+.colophon a:hover {
+    color: rgba(0,0,0,.4);
 }
 .colophon h4 {
     text-transform: uppercase;
@@ -297,6 +301,12 @@ article img {
 .colophon h4:first-child {
     padding-top: 0px;
 }
+    .colophon i {
+                color: rgba(0,0,0,.4);
+                font-size: 90%;
+                position: relative;
+                bottom: 5%;
+            }
 /*
 .tags {
     margin-left: -5px;
