@@ -1,5 +1,5 @@
 ---
-title: The Afterlife of Memes
+title: "The Afterlife of Memes"
 tags: Essay
 layout: text
 pubdate: September 2014
