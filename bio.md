@@ -24,7 +24,8 @@ layout: default
 </div>
 
 <sidebar>
-<p><img src="{{ site.github.url }}/images/kchayka.jpg"></p>
+<p><img src="{{ site.github.url }}/images/bio_pic_JamesChororos_2018.jpg">
+<br />Photo credit: James Chororos</p>
 
 <h4>Contact Information</h4>
         <p>
